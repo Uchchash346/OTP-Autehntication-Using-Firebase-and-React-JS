@@ -45,7 +45,9 @@ const Login = () => {
                     }}
                         placeholder="phone number" />
                     <br /><br />
-                    <div id="recaptcha-container"></div>
+                    <div id="recaptcha-container">
+                        
+                    </div>
                     <button onClick={signin}>Send OTP</button>
                 </div>
                 <div style={{ display: show ? "block" : "none" }}>
